@@ -17,9 +17,13 @@ from plotly.subplots import make_subplots
 
 st.set_page_config(page_title = "Dashboard")
 
-#Input text box
-path1 = st.text_input("Input Data file URL:",)
-path2 = st.text_input("Input Campaign Station URL:",)
+# #Input text box
+# path1 = st.text_input("Input Data file URL:",)
+# path2 = st.text_input("Input Campaign Station URL:",)
+
+#Upload files
+path1 = st.file_upload("Input Data file URL:",)
+path2 = st.file_upload("Input Campaign Station URL:",)
 
 
 st.header("Campaign Landing page")

@@ -22,8 +22,8 @@ st.set_page_config(page_title = "Dashboard")
 # path2 = st.text_input("Input Campaign Station URL:",)
 
 #Upload files
-path1 = st.file_upload("Input Data file URL:",)
-path2 = st.file_upload("Input Campaign Station URL:",)
+path1 = st.file_uploader("Input Data file URL:",)
+path2 = st.file_uploader("Input Campaign Station URL:",)
 
 
 st.header("Campaign Landing page")

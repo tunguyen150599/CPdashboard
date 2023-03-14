@@ -1,9 +1,5 @@
 import os
 import io
-from io import StringIO
-import requests
-if importlib.util.find_spec("pyodide") is not None:
-    from pyodide.http import open_url
 import pandas as pd
 import streamlit as st
 import matplotlib.pyplot as plt

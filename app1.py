@@ -84,7 +84,7 @@ formatter_millions = FuncFormatter(millions)
 def thousands(x, pos):
     return '%1.0f K' % (x*1e-3)
 formatter_thousands = FuncFormatter(thousands)
-
+ 
 
 # Grouping data
 
